@@ -1,0 +1,538 @@
+{
+  "quotes": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "currency": "USD",
+      "price": 333.69,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/AAPL/"
+    },
+    "SHOP.TO": {
+      "symbol": "SHOP.TO",
+      "currency": "CAD",
+      "price": 215.86,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/SHOP.TO/"
+    },
+    "RBLX": {
+      "symbol": "RBLX",
+      "currency": "USD",
+      "price": 44.12,
+      "asOf": "2026-10-02T20:03:13.000Z",
+      "source": "https://finance.yahoo.com/quote/RBLX/"
+    },
+    "NKE": {
+      "symbol": "NKE",
+      "currency": "USD",
+      "price": 33.87,
+      "asOf": "2026-10-02T20:00:03.000Z",
+      "source": "https://finance.yahoo.com/quote/NKE/"
+    },
+    "XAW.TO": {
+      "symbol": "XAW.TO",
+      "currency": "CAD",
+      "price": 60.03,
+      "asOf": "2026-10-02T19:59:59.000Z",
+      "source": "https://finance.yahoo.com/quote/XAW.TO/"
+    },
+    "VFV.TO": {
+      "symbol": "VFV.TO",
+      "currency": "CAD",
+      "price": 195.08,
+      "asOf": "2026-10-02T19:59:54.000Z",
+      "source": "https://finance.yahoo.com/quote/VFV.TO/"
+    },
+    "XIC.TO": {
+      "symbol": "XIC.TO",
+      "currency": "CAD",
+      "price": 56.64,
+      "asOf": "2026-10-02T19:59:58.000Z",
+      "source": "https://finance.yahoo.com/quote/XIC.TO/"
+    },
+    "BTC-USD": {
+      "symbol": "BTC-USD",
+      "currency": "USD",
+      "price": 84618.11,
+      "asOf": "2026-10-03T02:55:05.000Z",
+      "source": "https://finance.yahoo.com/quote/BTC-USD/"
+    },
+    "SOL-USD": {
+      "symbol": "SOL-USD",
+      "currency": "USD",
+      "price": 119.07,
+      "asOf": "2026-10-03T02:55:07.000Z",
+      "source": "https://finance.yahoo.com/quote/SOL-USD/"
+    },
+    "ETH-USD": {
+      "symbol": "ETH-USD",
+      "currency": "USD",
+      "price": 2679.36,
+      "asOf": "2026-10-03T02:55:06.000Z",
+      "source": "https://finance.yahoo.com/quote/ETH-USD/"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "currency": "USD",
+      "price": 233.95,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/NVDA/"
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "currency": "USD",
+      "price": 517.53,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/MSFT/"
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "currency": "USD",
+      "price": 343.5,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/GOOGL/"
+    },
+    "META": {
+      "symbol": "META",
+      "currency": "USD",
+      "price": 728.08,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/META/"
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "currency": "USD",
+      "price": 370.59,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/TSLA/"
+    },
+    "AMZN": {
+      "symbol": "AMZN",
+      "currency": "USD",
+      "price": 251.52,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/AMZN/"
+    },
+    "SPOT": {
+      "symbol": "SPOT",
+      "currency": "USD",
+      "price": 472.89,
+      "asOf": "2026-10-02T20:00:03.000Z",
+      "source": "https://finance.yahoo.com/quote/SPOT/"
+    },
+    "EA": {
+      "symbol": "EA",
+      "currency": "USD",
+      "price": 209.7,
+      "asOf": "2026-08-04T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/EA/"
+    },
+    "NFLX": {
+      "symbol": "NFLX",
+      "currency": "USD",
+      "price": 67.06,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/NFLX/"
+    },
+    "DIS": {
+      "symbol": "DIS",
+      "currency": "USD",
+      "price": 102.19,
+      "asOf": "2026-10-02T20:02:20.000Z",
+      "source": "https://finance.yahoo.com/quote/DIS/"
+    },
+    "TTWO": {
+      "symbol": "TTWO",
+      "currency": "USD",
+      "price": 202.73,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/TTWO/"
+    },
+    "SBUX": {
+      "symbol": "SBUX",
+      "currency": "USD",
+      "price": 94.71,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/SBUX/"
+    },
+    "COST": {
+      "symbol": "COST",
+      "currency": "USD",
+      "price": 920.65,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/COST/"
+    },
+    "MCD": {
+      "symbol": "MCD",
+      "currency": "USD",
+      "price": 231.89,
+      "asOf": "2026-10-02T20:00:02.000Z",
+      "source": "https://finance.yahoo.com/quote/MCD/"
+    },
+    "V": {
+      "symbol": "V",
+      "currency": "USD",
+      "price": 360.66,
+      "asOf": "2026-10-02T20:00:03.000Z",
+      "source": "https://finance.yahoo.com/quote/V/"
+    },
+    "PEP": {
+      "symbol": "PEP",
+      "currency": "USD",
+      "price": 125.89,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/PEP/"
+    },
+    "WMT": {
+      "symbol": "WMT",
+      "currency": "USD",
+      "price": 104.26,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/WMT/"
+    },
+    "KO": {
+      "symbol": "KO",
+      "currency": "USD",
+      "price": 85.65,
+      "asOf": "2026-10-02T20:00:02.000Z",
+      "source": "https://finance.yahoo.com/quote/KO/"
+    },
+    "LULU": {
+      "symbol": "LULU",
+      "currency": "USD",
+      "price": 94.46,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/LULU/"
+    },
+    "PYPL": {
+      "symbol": "PYPL",
+      "currency": "USD",
+      "price": 52.8,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/PYPL/"
+    },
+    "MA": {
+      "symbol": "MA",
+      "currency": "USD",
+      "price": 552.26,
+      "asOf": "2026-10-02T20:00:03.000Z",
+      "source": "https://finance.yahoo.com/quote/MA/"
+    },
+    "RY.TO": {
+      "symbol": "RY.TO",
+      "currency": "CAD",
+      "price": 278.91,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/RY.TO/"
+    },
+    "BMO.TO": {
+      "symbol": "BMO.TO",
+      "currency": "CAD",
+      "price": 236.25,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/BMO.TO/"
+    },
+    "TD.TO": {
+      "symbol": "TD.TO",
+      "currency": "CAD",
+      "price": 168.07,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/TD.TO/"
+    },
+    "ENB.TO": {
+      "symbol": "ENB.TO",
+      "currency": "CAD",
+      "price": 65.54,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/ENB.TO/"
+    },
+    "BNS.TO": {
+      "symbol": "BNS.TO",
+      "currency": "CAD",
+      "price": 129.93,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/BNS.TO/"
+    },
+    "CNR.TO": {
+      "symbol": "CNR.TO",
+      "currency": "CAD",
+      "price": 170.66,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/CNR.TO/"
+    },
+    "ATD.TO": {
+      "symbol": "ATD.TO",
+      "currency": "CAD",
+      "price": 76.9,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/ATD.TO/"
+    },
+    "CP.TO": {
+      "symbol": "CP.TO",
+      "currency": "CAD",
+      "price": 122.51,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/CP.TO/"
+    },
+    "DOL.TO": {
+      "symbol": "DOL.TO",
+      "currency": "CAD",
+      "price": 183.95,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/DOL.TO/"
+    },
+    "L.TO": {
+      "symbol": "L.TO",
+      "currency": "CAD",
+      "price": 62.16,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/L.TO/"
+    },
+    "BCE.TO": {
+      "symbol": "BCE.TO",
+      "currency": "CAD",
+      "price": 28.17,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/BCE.TO/"
+    },
+    "T.TO": {
+      "symbol": "T.TO",
+      "currency": "CAD",
+      "price": 11.47,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/T.TO/"
+    },
+    "CTC-A.TO": {
+      "symbol": "CTC-A.TO",
+      "currency": "CAD",
+      "price": 192.59,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/CTC-A.TO/"
+    },
+    "OTEX.TO": {
+      "symbol": "OTEX.TO",
+      "currency": "CAD",
+      "price": 31.69,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/OTEX.TO/"
+    },
+    "VOO": {
+      "symbol": "VOO",
+      "currency": "USD",
+      "price": 707.54,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/VOO/"
+    },
+    "WCN.TO": {
+      "symbol": "WCN.TO",
+      "currency": "CAD",
+      "price": 219.25,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/WCN.TO/"
+    },
+    "VTI": {
+      "symbol": "VTI",
+      "currency": "USD",
+      "price": 377.99,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/VTI/"
+    },
+    "VEA": {
+      "symbol": "VEA",
+      "currency": "USD",
+      "price": 71.13,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/VEA/"
+    },
+    "VT": {
+      "symbol": "VT",
+      "currency": "USD",
+      "price": 159.13,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/VT/"
+    },
+    "VWO": {
+      "symbol": "VWO",
+      "currency": "USD",
+      "price": 59.56,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/VWO/"
+    },
+    "QQQ": {
+      "symbol": "QQQ",
+      "currency": "USD",
+      "price": 749.58,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/QQQ/"
+    },
+    "VCN.TO": {
+      "symbol": "VCN.TO",
+      "currency": "CAD",
+      "price": 72.1,
+      "asOf": "2026-10-02T19:59:46.000Z",
+      "source": "https://finance.yahoo.com/quote/VCN.TO/"
+    },
+    "ZCN.TO": {
+      "symbol": "ZCN.TO",
+      "currency": "CAD",
+      "price": 47.48,
+      "asOf": "2026-10-02T19:59:51.000Z",
+      "source": "https://finance.yahoo.com/quote/ZCN.TO/"
+    },
+    "XUU.TO": {
+      "symbol": "XUU.TO",
+      "currency": "CAD",
+      "price": 80.35,
+      "asOf": "2026-10-02T19:59:59.000Z",
+      "source": "https://finance.yahoo.com/quote/XUU.TO/"
+    },
+    "XIU.TO": {
+      "symbol": "XIU.TO",
+      "currency": "CAD",
+      "price": 52.78,
+      "asOf": "2026-10-02T19:59:58.000Z",
+      "source": "https://finance.yahoo.com/quote/XIU.TO/"
+    },
+    "VUN.TO": {
+      "symbol": "VUN.TO",
+      "currency": "CAD",
+      "price": 146.42,
+      "asOf": "2026-10-02T19:54:40.000Z",
+      "source": "https://finance.yahoo.com/quote/VUN.TO/"
+    },
+    "VIU.TO": {
+      "symbol": "VIU.TO",
+      "currency": "CAD",
+      "price": 50.55,
+      "asOf": "2026-10-02T19:59:58.000Z",
+      "source": "https://finance.yahoo.com/quote/VIU.TO/"
+    },
+    "XEF.TO": {
+      "symbol": "XEF.TO",
+      "currency": "CAD",
+      "price": 52.06,
+      "asOf": "2026-10-02T19:59:42.000Z",
+      "source": "https://finance.yahoo.com/quote/XEF.TO/"
+    },
+    "XEC.TO": {
+      "symbol": "XEC.TO",
+      "currency": "CAD",
+      "price": 45.785,
+      "asOf": "2026-10-02T19:59:35.000Z",
+      "source": "https://finance.yahoo.com/quote/XEC.TO/"
+    },
+    "VEE.TO": {
+      "symbol": "VEE.TO",
+      "currency": "CAD",
+      "price": 51.02,
+      "asOf": "2026-10-02T19:58:56.000Z",
+      "source": "https://finance.yahoo.com/quote/VEE.TO/"
+    },
+    "VAB.TO": {
+      "symbol": "VAB.TO",
+      "currency": "CAD",
+      "price": 22.215,
+      "asOf": "2026-10-02T19:58:41.000Z",
+      "source": "https://finance.yahoo.com/quote/VAB.TO/"
+    },
+    "ZAG.TO": {
+      "symbol": "ZAG.TO",
+      "currency": "CAD",
+      "price": 13.34,
+      "asOf": "2026-10-02T19:58:59.000Z",
+      "source": "https://finance.yahoo.com/quote/ZAG.TO/"
+    },
+    "XBB.TO": {
+      "symbol": "XBB.TO",
+      "currency": "CAD",
+      "price": 27.26,
+      "asOf": "2026-10-02T19:59:57.000Z",
+      "source": "https://finance.yahoo.com/quote/XBB.TO/"
+    },
+    "BND": {
+      "symbol": "BND",
+      "currency": "USD",
+      "price": 69.94,
+      "asOf": "2026-10-02T20:00:01.000Z",
+      "source": "https://finance.yahoo.com/quote/BND/"
+    },
+    "VSB.TO": {
+      "symbol": "VSB.TO",
+      "currency": "CAD",
+      "price": 23.05,
+      "asOf": "2026-10-02T19:59:41.000Z",
+      "source": "https://finance.yahoo.com/quote/VSB.TO/"
+    },
+    "XSB.TO": {
+      "symbol": "XSB.TO",
+      "currency": "CAD",
+      "price": 26.54,
+      "asOf": "2026-10-02T19:59:35.000Z",
+      "source": "https://finance.yahoo.com/quote/XSB.TO/"
+    },
+    "AGG": {
+      "symbol": "AGG",
+      "currency": "USD",
+      "price": 94.25,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/AGG/"
+    },
+    "AVAX-USD": {
+      "symbol": "AVAX-USD",
+      "currency": "USD",
+      "price": 10.899,
+      "asOf": "2026-10-03T02:55:05.000Z",
+      "source": "https://finance.yahoo.com/quote/AVAX-USD/"
+    },
+    "ADA-USD": {
+      "symbol": "ADA-USD",
+      "currency": "USD",
+      "price": 0.2472,
+      "asOf": "2026-10-03T02:55:06.000Z",
+      "source": "https://finance.yahoo.com/quote/ADA-USD/"
+    },
+    "TLT": {
+      "symbol": "TLT",
+      "currency": "USD",
+      "price": 77.48,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/TLT/"
+    },
+    "HYG": {
+      "symbol": "HYG",
+      "currency": "USD",
+      "price": 76.91,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "https://finance.yahoo.com/quote/HYG/"
+    },
+    "CAD=X": {
+      "symbol": "CAD=X",
+      "currency": "CAD",
+      "price": 1.4245,
+      "asOf": "2026-10-02T21:18:11.000Z",
+      "source": "https://finance.yahoo.com/quote/CAD%3DX/"
+    },
+    "LINK-USD": {
+      "symbol": "LINK-USD",
+      "currency": "USD",
+      "price": 13.955,
+      "asOf": "2026-10-03T02:55:03.000Z",
+      "source": "https://finance.yahoo.com/quote/LINK-USD/"
+    },
+    "DOGE-USD": {
+      "symbol": "DOGE-USD",
+      "currency": "USD",
+      "price": 0.09316,
+      "asOf": "2026-10-03T02:55:05.000Z",
+      "source": "https://finance.yahoo.com/quote/DOGE-USD/"
+    },
+    "XRP-USD": {
+      "symbol": "XRP-USD",
+      "currency": "USD",
+      "price": 1.4868,
+      "asOf": "2026-10-03T02:55:08.000Z",
+      "source": "https://finance.yahoo.com/quote/XRP-USD/"
+    }
+  },
+  "errors": [],
+  "fetchedAt": "2026-10-03T02:55:12.563Z"
+}

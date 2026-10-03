@@ -26,3 +26,11 @@ No login, real trades or brokerage links. Portfolio amounts, goals and account c
 Fund fees are verified for the original three ETFs; other fund fees are unknown and excluded from the known-cost subtotal. This does not mean they are free. Cash interest and trading/FX fees are assumed zero.
 
 The original TFC logo is used without stretching or alteration. All 13 calculation and spreadsheet tests pass.
+
+## Portfolio pages and pricing
+
+Build `/`, Holdings `/holdings`, and Accounts `/accounts` share an in-memory provider. Use the internal navigation links to keep allocations; a refresh or closing the browser resets them. Download Excel before leaving.
+
+All 75 tradable symbols have a Yahoo Finance snapshot with source and market timestamp in `lib/price-snapshot.json`, retrieved October 2, 2026. FX uses the sourced CAD=X snapshot. Four generic bond categories use explicitly illustrative CAD $100 practice units, not market quotes or actual bond issues. The manual refresh fetches visible symbols. Prices explain reference fractional units; CAD allocations are authoritative and refresh does not mark balances to market.
+
+Direct crypto can only be saved to Non-registered. Account balances are not contribution-room calculations. A holding currently belongs to one account; splitting the same symbol across accounts is not supported.

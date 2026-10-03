@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import {PortfolioProvider} from "@/components/portfolio-provider";
 
 export const metadata: Metadata = {
   title: "TFC Investment Lab",
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased"><PortfolioProvider>{children}</PortfolioProvider></body>
     </html>
   );
 }
