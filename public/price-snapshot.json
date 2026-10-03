@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "verified": true,
+  "fx": {
+    "rate": 1.4243,
+    "date": "2026-10-01",
+    "source": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  "prices": [
+    {
+      "ticker": "AAPL",
+      "currency": "USD",
+      "close": 330.32,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/stocks/aapl/history/"
+    },
+    {
+      "ticker": "RBLX",
+      "currency": "USD",
+      "close": 43,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/stocks/rblx/history/"
+    },
+    {
+      "ticker": "NKE",
+      "currency": "USD",
+      "close": 35.15,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/stocks/nke/history/"
+    },
+    {
+      "ticker": "SHOP",
+      "currency": "CAD",
+      "close": 212.1,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/quote/tsx/SHOP/history/"
+    },
+    {
+      "ticker": "XIC",
+      "currency": "CAD",
+      "close": 56.09,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/quote/tsx/XIC/history/"
+    },
+    {
+      "ticker": "VFV",
+      "currency": "CAD",
+      "close": 193.3,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/quote/tsx/VFV/history/"
+    },
+    {
+      "ticker": "XAW",
+      "currency": "CAD",
+      "close": 59.4,
+      "date": "2026-10-01",
+      "source": "https://stockanalysis.com/quote/tsx/XAW/history/"
+    }
+  ]
+}
