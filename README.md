@@ -38,3 +38,5 @@ Direct crypto can only be saved to Non-registered. Account balances are not cont
 ## Design guide
 
 Read `design.md` before making interface changes. It defines the TFC brand colours, typography, spacing, controls, accessibility and responsive widths. The final section of `app/globals.css` applies the shared design tokens. White-text buttons use the documented accessible coral shade.
+
+Production builds explicitly use Webpack so local and Vercel builds use the same verified CSS pipeline.
