@@ -213,3 +213,29 @@ body{margin:0;background:#fbf6ee;color:#1a1a57;font-family:Arial,Helvetica,sans-
 .builder-header .brand-with-logo span::after{content:' ·';color:var(--tfc-coral);font-weight:700}
 @media(min-width:768px) and (max-width:1023px){.builder-header{padding:24px}.builder-header .page-nav{gap:8px}.builder-header .page-nav a{padding:12px}.builder-header .download-btn{font-size:14px}}
 @media(max-width:767px){.builder-header{padding:16px;gap:16px}.builder-header .page-nav{order:3;width:100%;margin:0;gap:8px}.builder-header .page-nav a{flex:1;font-size:14px;padding:12px 8px}.builder-header .download-btn{margin-left:auto}.builder-header .brand-with-logo span{font-size:18px}}
+
+/* Shared footer, inspired by the TFC Compound Lab reference. */
+.tfc-footer{display:grid;grid-template-columns:280px minmax(0,1fr);align-items:start;gap:32px;margin-top:64px;padding:32px 0;border-top:1px solid var(--tfc-neutral);background:var(--tfc-cream)}
+.footer-brand{display:flex;align-items:center;gap:16px}.footer-brand img{width:64px;height:64px;object-fit:contain;flex-shrink:0}.footer-brand strong{font-size:24px;font-weight:700;letter-spacing:-.5px;color:var(--tfc-text-muted)}
+.footer-copy>p{font-size:16px;line-height:1.75;color:var(--tfc-text-muted)}.footer-download{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:24px}.footer-download p{font-size:14px;color:var(--tfc-text-muted);max-width:55ch}.footer-download .download-btn{flex-shrink:0}
+@media(max-width:1023px){.tfc-footer{grid-template-columns:1fr;gap:24px}.footer-download{flex-wrap:wrap}}
+@media(max-width:767px){.tfc-footer{margin-top:48px;padding:24px 0}.footer-brand img{width:48px;height:48px}.footer-brand strong{font-size:24px}.footer-download{gap:16px}.footer-copy>p{font-size:16px}}
+
+/* Product name and subtext follow the TFC Compound Lab header reference. */
+.builder-header .header-brand-copy{display:flex;flex-direction:column;gap:4px;letter-spacing:normal;font-size:16px}
+.builder-header .header-brand-copy strong{font-size:28px;font-weight:700;line-height:1.15;letter-spacing:-1px;color:var(--tfc-navy)}
+.builder-header .header-brand-copy .brand-dot{display:inline;font-size:inherit;color:var(--tfc-coral);letter-spacing:inherit}
+.builder-header .header-brand-copy .brand-subtext{display:block;font-size:14px;font-weight:400;line-height:1.5;letter-spacing:normal;color:var(--tfc-text-muted);max-width:36ch}
+.builder-header .header-brand-copy span::after{content:none}
+@media(max-width:767px){.builder-header .brand-with-logo{flex:1;min-width:0}.builder-header .header-brand-copy strong{font-size:24px}.builder-header .header-brand-copy .brand-subtext{font-size:14px;max-width:25ch}.builder-header .download-btn{order:4;margin:0}.builder-header .page-nav{order:3}}
+
+/* Compact brand lockup, matching the single-line desktop reference. */
+.builder-header{gap:16px;padding:16px 32px}
+.builder-header .header-brand-copy .brand-subtext{max-width:none;white-space:nowrap}
+.builder-header .brand-with-logo img{width:48px;height:48px;object-fit:contain}
+.builder-header .brand-with-logo{gap:12px}
+.builder-header .page-nav{gap:8px;flex-wrap:nowrap}
+.builder-header .page-nav a{padding:10px 12px;white-space:nowrap}
+@media(min-width:768px){.builder-header{flex-wrap:nowrap}.builder-header .header-brand-copy strong{font-size:26px}.builder-header .download-btn{font-size:14px;padding:10px 12px}.builder-header .page-nav a{font-size:14px}}
+@media(min-width:768px) and (max-width:900px){.builder-header{padding:16px 24px;gap:12px}.builder-header .download-btn{display:none}}
+@media(max-width:767px){.builder-header{padding:16px;flex-wrap:wrap}.builder-header .header-brand-copy .brand-subtext{white-space:normal}.builder-header .page-nav{width:100%;flex-wrap:wrap}.builder-header .download-btn{order:4}}

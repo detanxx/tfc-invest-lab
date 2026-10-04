@@ -1,4 +1,4 @@
-# TFC Investment Lab
+# TFC Invest Lab
 
 A Teen Finance Club portfolio tool using fictional CAD money. Browse 79 educational instruments, filter by type, industry and market, open instrument details, and allocate holdings to TFSA, RRSP, FHSA or Non-registered accounts. See asset/account distribution and export editable Excel allocations with price and exchange-rate provenance.
 

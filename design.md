@@ -1,6 +1,6 @@
 # TFC App Design System
 
-This is the design guide for TFC Investment Lab. Use it for all new screens and component changes.
+This is the design guide for TFC Invest Lab. Use it for all new screens and component changes.
 
 ## Brand / feel
 Friendly, modern, youthful and educational. Should feel polished but not corporate. Designed primarily for teenagers, parents and facilitators.
@@ -68,5 +68,10 @@ All applications must work at 375px mobile, 768px tablet, 1024px laptop and 1440
 - The supplied TFC logo stays unchanged and proportional, including its favicon.
 - Central design-system overrides are at the end of app/globals.css. Use these tokens rather than adding competing ad hoc styles.
 
-### Investment Lab navigation reference
+### Invest Lab navigation reference
 Use the user-provided TFC Compound Lab header style: unchanged TFC logo and product name on the left, page links in the same header on the right. Inactive links are plain navy text. The current page has a cream background, semibold navy text, rounded corners and a coral bottom border. Keep `aria-current="page"` and visible keyboard focus. On phones the links wrap onto a full-width second header row. Avoid the previous separate filled-pill navigation.
+
+### Shared footer
+All pages end with the same cream footer: unchanged TFC logo and muted navy product name on the left, plain-language education, risk, data-storage and CAD information on the right. Describe this app accurately: fictional allocations, no trades, in-memory portfolio calculations, and server-backed Yahoo price refreshes. Keep the download-before-leaving reminder and Excel action. Stack the footer on tablet and mobile.
+
+Header branding uses bold lowercase `invest lab.` with a coral dot, and the subtext “Explore your money mix.” beneath it, following the supplied Compound Lab header reference. Keep the logo unchanged.
