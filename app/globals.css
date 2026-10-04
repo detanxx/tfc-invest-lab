@@ -120,3 +120,96 @@ body{margin:0;background:#fbf6ee;color:#1a1a57;font-family:Arial,Helvetica,sans-
 .account-holdings{display:grid;gap:6px;margin:14px 0}.account-holdings button{display:flex;justify-content:space-between;gap:12px;padding:9px 12px;border:1px solid #1a1a571a;border-radius:8px;background:#fbf6ee;font-size:13px;color:#1a1a57}.account-holdings button:hover{border-color:#f9735c}
 
 .secondary-page .builder-intro{padding-top:0;padding-bottom:12px}.secondary-page .builder-intro h1{font-size:clamp(30px,4vw,46px)}.holdings-allocation{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:30px}.holdings-allocation>div{display:flex;flex-direction:column;gap:6px;background:#fbf6ee;padding:16px;border-radius:12px}.holdings-allocation span{display:flex;align-items:center;gap:6px;font-size:13px}.holdings-allocation i{height:9px;width:9px;border-radius:50%;display:inline-block}.holdings-allocation strong{font-size:22px}.holdings-allocation small{font-size:13px}.cash-account-setting{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:24px 0;font-size:14px}.cash-account-setting [data-slot="select-trigger"]{min-width:180px}.cash-account-setting>span{color:#686880}@media(max-width:600px){.holdings-allocation{grid-template-columns:repeat(2,1fr)}.secondary-page .builder-intro h1{font-size:30px}}
+
+.more-info{margin:12px 0 18px;border:1px solid #1a1a571c;border-radius:12px;background:#fbf6ee;color:#1a1a57;clear:both}.more-info summary{padding:11px 14px;cursor:pointer;font-size:13px;font-weight:600;line-height:1.5;list-style:revert}.more-info summary span{margin-right:5px}.more-info summary:focus-visible{outline:3px solid #f9735c;outline-offset:3px;border-radius:10px}.more-info-body{padding:0 16px 14px;font-size:14px;line-height:1.65;max-width:75ch}.more-info-body p+p{margin-top:10px}.portfolio-insights .more-info-body,.instrument-detail-body .more-info-body{font-size:13px}.instrument-detail-body .more-info{margin:10px 0}.portfolio-insights .more-info{margin-bottom:0}
+
+.account-full-name{font-size:13px;color:#686880;margin-top:-6px!important;margin-bottom:12px!important}
+
+/* TFC design.md — shared product tokens and component rules. */
+:root{
+ --tfc-navy:#1a1a57;--tfc-indigo:#161633;--tfc-coral:#f9735c;
+ --tfc-coral-aa:#b83c28;--tfc-mint:#6ed9b3;--tfc-yellow:#fcd34d;
+ --tfc-cream:#fbf6ee;--tfc-secondary:#f2e9dd;--tfc-neutral:#e2e2eb;
+ --tfc-text-muted:#57576b;--tfc-control-border:#79798f;
+ --primary:var(--tfc-coral-aa);--primary-foreground:#fff;
+ --secondary:var(--tfc-secondary);--secondary-foreground:var(--tfc-navy);
+ --muted:var(--tfc-neutral);--muted-foreground:var(--tfc-text-muted);
+ --border:var(--tfc-neutral);--input:var(--tfc-control-border);
+ --ring:var(--tfc-navy);--card-foreground:var(--tfc-navy);
+ --chart-1:var(--tfc-navy);--chart-2:var(--tfc-mint);--chart-3:var(--tfc-coral);--chart-4:var(--tfc-yellow);--chart-5:var(--tfc-indigo);
+}
+.builder-app{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5;color:var(--tfc-navy)}
+.builder-main{max-width:1264px;padding:32px;margin:0 auto}
+.builder-header{padding:16px 32px;gap:16px;background:var(--tfc-cream)}
+.builder-intro{padding:0;margin:0 0 24px}
+.builder-intro h1,.secondary-page .builder-intro h1{font-size:32px;font-weight:700;line-height:1.2;letter-spacing:-.5px;margin:8px 0 16px}
+.builder-app h2,.section-heading h2{font-size:24px;font-weight:700;line-height:1.25;letter-spacing:-.3px}
+.builder-app h3,.instrument-allocation-heading h3{font-size:18px;font-weight:600;line-height:1.35}
+.builder-intro p,.account-intro,.portfolio-insights p,.instrument-detail-body>p,.instrument-risk p{font-size:16px;line-height:1.6}
+.builder-intro .intro-detail{font-size:16px;margin-top:8px;color:var(--tfc-text-muted)}
+.builder-intro h1 span,.instrument-labels,.instrument-value small,.builder-app small,.budget-stat>span,.budget-strip>label,.cash-account-setting>span,.account-full-name,.builder-footer p{color:var(--tfc-text-muted)}
+.builder-app small,.instrument-labels>span,.instrument-value small,.instrument-price-detail small,.instrument-allocation-heading span,.eyebrow,.quote-toolbar span,.count-pill,.catalogue-note,.quote-status,.account-full-name,.holdings-allocation small,.holdings-allocation span,.builder-app th{font-size:14px;line-height:1.5}
+.eyebrow{font-weight:600;letter-spacing:1px;color:var(--tfc-navy)}
+.builder-grid{gap:24px;grid-template-columns:minmax(0,1.7fr) minmax(320px,1fr);align-items:start}
+.catalogue-panel,.distribution-panel,.holdings-panel,.account-analysis,.portfolio-insights>article,.account-cards>article,.budget-strip{
+ background:#fff;border:1px solid var(--tfc-neutral);border-radius:12px;padding:24px;box-shadow:0 2px 8px #16163306;
+}
+.section-heading{gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.budget-strip{gap:24px;margin:24px 0}
+.budget-input,.budget-strip input,.instrument-dialog input{border-radius:8px}
+.builder-app input,.builder-app textarea,.builder-app [data-slot="select-trigger"]{min-height:48px;border:1px solid var(--tfc-control-border);border-radius:8px;background:#fff;color:var(--tfc-navy);font-size:16px}
+.budget-input input{border:0!important;min-height:48px;font-size:24px;font-weight:600}
+.search-field{min-height:48px;border:1px solid var(--tfc-control-border);border-radius:8px;margin:16px 0}
+.search-field input{border:0;min-height:44px;font-size:16px}
+.builder-app button:focus-visible,.builder-app a:focus-visible,.builder-app summary:focus-visible,.builder-app input:focus-visible,.builder-app [data-slot="select-trigger"]:focus-visible{outline:3px solid var(--tfc-navy);outline-offset:4px;box-shadow:0 0 0 2px var(--tfc-coral)}
+.download-btn,.save-allocation,.instrument-dialog .save-allocation{background:var(--tfc-coral-aa);color:#fff;border:1px solid var(--tfc-coral-aa);border-radius:10px;min-height:48px;padding:12px 16px;font-size:16px;font-weight:600}
+.download-btn:hover,.save-allocation:hover{background:#9d3020;border-color:#9d3020}
+.quick-amounts button,.quote-toolbar button,.load-more{background:#fff;color:var(--tfc-navy);border:1px solid var(--tfc-navy);border-radius:10px;min-height:44px;padding:8px 16px;font-size:14px;font-weight:600}
+.builder-app button:disabled{opacity:.65;cursor:wait}
+.page-nav{gap:8px;margin:0 0 24px}
+.page-nav a{padding:12px 16px;border-radius:10px;border:1px solid var(--tfc-navy);min-height:48px;font-size:16px;font-weight:600;display:flex;align-items:center;justify-content:center}
+.page-nav a[aria-current="page"]{background:var(--tfc-navy);color:white}
+.asset-tabs{height:auto;min-height:48px;padding:4px;gap:4px;background:var(--tfc-secondary);border-radius:10px;display:flex;flex-wrap:wrap}
+.asset-tabs [role="tab"]{min-height:44px;padding:8px 12px;font-size:14px;color:var(--tfc-navy);border-radius:8px;flex:1}
+.asset-tabs [role="tab"][data-state="active"]{background:var(--tfc-navy);color:white}
+.instrument-row{min-height:88px;padding:16px 0;gap:16px;border-bottom:1px solid var(--tfc-neutral)}
+.instrument-identity>strong{font-size:16px;font-weight:600;line-height:1.5}
+.ticker-sticker{width:56px;height:56px;min-width:56px;border-radius:12px;font-size:14px;font-weight:600}
+.instrument-labels{gap:4px;flex-wrap:wrap}.instrument-labels>span{padding:0;background:none;font-size:14px}
+.instrument-value strong{font-size:16px;font-weight:600}.instrument-value{max-width:144px}
+.catalogue-filters{gap:8px;flex-wrap:wrap}.catalogue-filters [data-slot="select-trigger"]{font-size:14px;min-width:0;flex:1}
+.quote-toolbar{gap:8px;flex-wrap:wrap;margin:16px 0}
+.more-info{border:1px solid var(--tfc-neutral);border-radius:12px;background:var(--tfc-cream);margin:16px 0}
+.more-info summary{font-size:14px;min-height:44px;padding:12px 16px;font-weight:600}
+.more-info-body,.portfolio-insights .more-info-body,.instrument-detail-body .more-info-body{font-size:16px;line-height:1.6;padding:0 16px 16px}
+.account-cards{gap:24px}.portfolio-insights{gap:24px;margin:24px 0}
+.account-cards article p,.account-risk-note,.account-holdings button{font-size:16px;line-height:1.6}
+.holdings-allocation{gap:16px;margin-bottom:24px}.holdings-allocation>div{padding:16px;background:var(--tfc-secondary)}
+.holdings-scroll{overflow-x:auto}.holdings-scroll table{min-width:680px}.holding-account{min-width:160px}
+.holding-open{font-size:16px;min-height:44px;text-align:left}.remove-btn,.dialog-close{min-height:44px;min-width:44px}
+.builder-footer{margin-top:32px;gap:16px;flex-wrap:wrap}
+.instrument-dialog{padding:24px!important;border:1px solid var(--tfc-neutral)!important;border-radius:12px!important;width:calc(100vw - 32px)!important;max-width:560px!important;max-height:90dvh!important;overflow-y:auto!important;font-size:16px}
+.instrument-dialog h2{font-size:24px}.instrument-dialog label{font-size:16px}.instrument-price-detail{padding:16px;border-radius:12px;background:var(--tfc-secondary)}
+.quick-amounts{display:flex;gap:8px;flex-wrap:wrap}.instrument-allocation-heading{gap:8px;flex-wrap:wrap}
+@media(min-width:768px) and (max-width:1023px){.builder-main{padding:24px;max-width:1248px}.builder-header{padding:16px 24px}.builder-grid{grid-template-columns:1fr}.distribution-panel{position:static}}
+@media(max-width:767px){
+ .builder-main{padding:24px 16px;max-width:1232px}.builder-header{padding:16px;flex-wrap:wrap}.builder-header .practice-badge{display:none}.builder-header .brand-with-logo{gap:8px}.builder-header .download-btn{font-size:14px;padding:8px 12px}.brand-with-logo img{width:40px;height:40px;object-fit:contain}.brand-with-logo div{font-size:10px}.brand-with-logo span{font-size:18px}
+ .builder-grid{grid-template-columns:minmax(0,1fr)}.distribution-panel{position:static}.budget-strip{grid-template-columns:minmax(0,1fr);gap:16px}.portfolio-insights,.account-cards{grid-template-columns:minmax(0,1fr)}
+ .builder-intro h1,.secondary-page .builder-intro h1{font-size:32px}.catalogue-panel,.distribution-panel,.holdings-panel,.account-analysis,.portfolio-insights>article,.account-cards>article,.budget-strip{padding:24px}
+ .instrument-row{gap:8px;display:grid;grid-template-columns:48px minmax(0,1fr) 16px}.ticker-sticker{width:48px;height:48px;min-width:48px;font-size:12px}.instrument-identity>strong{font-size:16px}.instrument-value{grid-column:2;max-width:none;text-align:left}.instrument-row>svg{grid-column:3;grid-row:1}.instrument-labels>span{font-size:14px}.instrument-value strong{font-size:16px}.instrument-value small{font-size:14px}
+ .holdings-allocation{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.cash-account-setting{gap:8px}.page-nav a{font-size:14px;padding:12px}.count-pill{white-space:normal}.instrument-dialog{padding:24px!important}.instrument-allocation-heading{flex-direction:column;align-items:flex-start}.instrument-allocation-heading span{font-size:14px}
+}
+
+@media(max-width:767px){.ticker-sticker{font-size:14px;letter-spacing:-.2px}}
+
+/* Header navigation follows the TFC compound lab reference. */
+.builder-header{background:#fff;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 32px;border-bottom:1px solid var(--tfc-neutral);flex-wrap:wrap}
+.builder-header .practice-badge{display:none}
+.builder-header .page-nav{margin:0 0 0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.builder-header .page-nav a{background:transparent;color:var(--tfc-navy);border:0;border-bottom:4px solid transparent;border-radius:12px;min-height:48px;padding:12px 16px;font-size:16px;font-weight:400;text-decoration:none;transition:background .15s,border-color .15s}
+.builder-header .page-nav a[aria-current="page"]{background:var(--tfc-cream);border-bottom-color:var(--tfc-coral);color:var(--tfc-navy);font-weight:600}
+.builder-header .page-nav a:hover{background:var(--tfc-cream)}
+.builder-header .brand-with-logo{flex-shrink:0}
+.builder-header .brand-with-logo span::after{content:' ·';color:var(--tfc-coral);font-weight:700}
+@media(min-width:768px) and (max-width:1023px){.builder-header{padding:24px}.builder-header .page-nav{gap:8px}.builder-header .page-nav a{padding:12px}.builder-header .download-btn{font-size:14px}}
+@media(max-width:767px){.builder-header{padding:16px;gap:16px}.builder-header .page-nav{order:3;width:100%;margin:0;gap:8px}.builder-header .page-nav a{flex:1;font-size:14px;padding:12px 8px}.builder-header .download-btn{margin-left:auto}.builder-header .brand-with-logo span{font-size:18px}}

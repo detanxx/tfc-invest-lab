@@ -34,3 +34,7 @@ Build `/`, Holdings `/holdings`, and Accounts `/accounts` share an in-memory pro
 All 75 tradable symbols have a Yahoo Finance snapshot with source and market timestamp in `lib/price-snapshot.json`, retrieved October 2, 2026. FX uses the sourced CAD=X snapshot. Four generic bond categories use explicitly illustrative CAD $100 practice units, not market quotes or actual bond issues. The manual refresh fetches visible symbols. Prices explain reference fractional units; CAD allocations are authoritative and refresh does not mark balances to market.
 
 Direct crypto can only be saved to Non-registered. Account balances are not contribution-room calculations. A holding currently belongs to one account; splitting the same symbol across accounts is not supported.
+
+## Design guide
+
+Read `design.md` before making interface changes. It defines the TFC brand colours, typography, spacing, controls, accessibility and responsive widths. The final section of `app/globals.css` applies the shared design tokens. White-text buttons use the documented accessible coral shade.

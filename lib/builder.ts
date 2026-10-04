@@ -3,7 +3,7 @@ import type {MarketData} from './market';
 import snapshot from './price-snapshot.json';
 export const groups=['Stocks','ETFs','Bonds','Cash','Crypto'] as const;
 export type Group=typeof groups[number];
-export const groupColors:Record<Group,string>={Stocks:'#f9735c',ETFs:'#1a1a57',Bonds:'#6ed9b3',Cash:'#d1d5db',Crypto:'#fcd34d'};
+export const groupColors:Record<Group,string>={Stocks:'#1a1a57',ETFs:'#fcd34d',Bonds:'#6ed9b3',Cash:'#e2e2eb',Crypto:'#f9735c'};
 export type Asset={id:string,name:string,group:Group,description:string,exposure:string,risk:string,fee:number,referenceIndex?:number,symbol?:string,feeKnown?:boolean};
 export const assets:Asset[]=[...catalogue.map((c,i)=>({id:c.ticker,name:c.name,group:(c.type==='Stock'?'Stocks':'ETFs') as Group,description:c.description,exposure:i===3||i===4?'Canada':i===6?'Global':'United States',risk:c.type==='Stock'?'One company can lose value even when the wider market rises.':'A basket spreads company risk, but market losses are still possible.',fee:c.fee,referenceIndex:i,symbol:i===3||i>=4?c.ticker+'.TO':c.ticker,feeKnown:true})),
 {id:'GOV-SHORT',name:'Short-term government bonds',group:'Bonds',description:'Lend money to a government for a shorter period. Interest rates can still change the resale value.',exposure:'Canada',risk:'Interest-rate and issuer risk; no guaranteed resale price.',fee:0},
