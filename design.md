@@ -75,3 +75,5 @@ Use the user-provided TFC Compound Lab header style: unchanged TFC logo and prod
 All pages end with the same cream footer: unchanged TFC logo and muted navy product name on the left, plain-language education, risk, data-storage and CAD information on the right. Describe this app accurately: fictional allocations, no trades, in-memory portfolio calculations, and server-backed Yahoo price refreshes. Keep the download-before-leaving reminder and Excel action. Stack the footer on tablet and mobile.
 
 Header branding uses bold lowercase `invest lab.` with a coral dot, and the subtext “Explore your money mix.” beneath it, following the supplied Compound Lab header reference. Keep the logo unchanged.
+
+Mobile layout: the header grows with its navigation and stays in normal page flow. Excel download remains in the footer on phones. Instrument rows use explicit grid areas, filters stack, and the catalogue expands naturally rather than clipping rows in a nested scroll area.

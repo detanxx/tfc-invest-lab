@@ -239,3 +239,31 @@ body{margin:0;background:#fbf6ee;color:#1a1a57;font-family:Arial,Helvetica,sans-
 @media(min-width:768px){.builder-header{flex-wrap:nowrap}.builder-header .header-brand-copy strong{font-size:26px}.builder-header .download-btn{font-size:14px;padding:10px 12px}.builder-header .page-nav a{font-size:14px}}
 @media(min-width:768px) and (max-width:900px){.builder-header{padding:16px 24px;gap:12px}.builder-header .download-btn{display:none}}
 @media(max-width:767px){.builder-header{padding:16px;flex-wrap:wrap}.builder-header .header-brand-copy .brand-subtext{white-space:normal}.builder-header .page-nav{width:100%;flex-wrap:wrap}.builder-header .download-btn{order:4}}
+
+/* Responsive layout: wrapped controls must contribute to their container height. */
+.builder-header{height:auto;min-height:90px}
+@media(max-width:767px){
+ .builder-header{position:static;min-height:0;align-items:flex-start}
+ .builder-header .brand-with-logo{flex:0 0 100%}
+ .builder-header .page-nav{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(2,minmax(0,1fr));gap:4px}
+ .builder-header .page-nav a{min-width:0;padding:10px 4px;font-size:14px}
+ .builder-header .download-btn{display:none}
+ .catalogue-panel .asset-list{max-height:none;overflow:visible;padding-right:0}
+ .instrument-row{grid-template-areas:"ticker identity arrow" ". value .";grid-template-columns:48px minmax(0,1fr) 16px;align-items:start}
+ .instrument-row .ticker-sticker{grid-area:ticker}
+ .instrument-identity{grid-area:identity;overflow-wrap:anywhere}
+ .instrument-value{grid-area:value;min-width:0;overflow-wrap:anywhere}
+ .instrument-row>svg{grid-area:arrow;margin-top:8px}
+ .instrument-labels{column-gap:8px}
+ .quote-toolbar{flex-direction:column;align-items:flex-start}
+ .quote-toolbar span{max-width:none}
+ .catalogue-filters{flex-direction:column}
+ .catalogue-filters [data-slot="select-trigger"]{width:100%;flex:auto}
+ .account-cards article,.account-analysis,.distribution-panel,.catalogue-panel,.holdings-panel{min-width:0}
+ .account-holdings button{flex-wrap:wrap;text-align:left;overflow-wrap:anywhere}
+ .cash-account-setting [data-slot="select-trigger"]{width:100%;min-width:0}
+ .instrument-dialog [data-slot="dialog-title"],.instrument-dialog>.eyebrow{padding-right:40px;overflow-wrap:anywhere}
+ .instrument-dialog [data-slot="select-trigger"]{min-height:48px;font-size:16px;width:100%;white-space:normal}
+ .instrument-dialog input{width:100%;min-width:0}
+ .load-more{white-space:normal}
+}
